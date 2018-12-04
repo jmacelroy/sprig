@@ -8,6 +8,7 @@ The following type conversion functions are provided by Sprig:
 - `int64`: Convert to an `int64`
 - `toString`: Convert to a string
 - `toStrings`: Convert a list, slice, or array to a list of strings.
+- `toBool`: Convert 1, t, T, TRUE, true, True, 0, f, F, FALSE, false, False to a boolean.
 
 Only `atoi` requires that the input be a specific type. The others will attempt
 to convert from any type to the destination type. For example, `int64` can convert
